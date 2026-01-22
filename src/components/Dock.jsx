@@ -1,4 +1,5 @@
-import "./Dock.scss"
+import React from 'react'
+import "./dock.scss"
 
 const Dock = () => {
     return (

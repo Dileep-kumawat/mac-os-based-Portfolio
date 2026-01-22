@@ -1,9 +1,8 @@
 .window {
-    height: 500px;
-    width: 700px;
-
+    
     background-color: #060606;
     border-radius: 0.75rem;
+    height: 100%;
     overflow: hidden;
 
     color: rgb(168, 168, 168);
@@ -33,17 +32,34 @@
                 border-radius: 50%;
             }
 
-            .red {
+            .red{
                 background-color: #eb3535;
             }
 
-            .yellow {
+            .yellow{
                 background-color: rgb(247, 247, 81);
             }
 
-            .green {
+            .green{
                 background-color: rgb(27, 228, 0);
             }
         }
+
+
+
     }
+
+    .main-content{
+        height: 100%;
+    }
+
+    *::-webkit-scrollbar{
+        width: 8px;
+    }
+
+    *::-webkit-scrollbar-thumb{
+        background-color: rgba(168, 168, 168, 0.4);
+        border-radius: 4px;
+    }
+
 }

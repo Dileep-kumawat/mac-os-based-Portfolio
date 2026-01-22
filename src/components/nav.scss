@@ -19,16 +19,4 @@ nav {
         display: flex;
         gap: 1rem;
     }
-
-    .apple-icon,
-    .nav-icon{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-    }
-
-    .nav-item{
-        text-transform: capitalize;
-    }
 }

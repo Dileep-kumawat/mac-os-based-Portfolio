@@ -1,5 +1,6 @@
+import React from 'react'
 import "./nav.scss"
-import DateTime from './DateTime.jsx'
+import DateTime from './DateTime'
 
 const Nav = () => {
     return (
@@ -10,7 +11,7 @@ const Nav = () => {
                 </div>
 
                 <div className="nav-item">
-                    <p>Dileep Kumawat</p>
+                    <p>Ankur Prajapati</p>
                 </div>
 
                 <div className="nav-item">
