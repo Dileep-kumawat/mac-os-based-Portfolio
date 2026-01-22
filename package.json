@@ -1,5 +1,5 @@
 {
-  "name": "mac-os-based-portfolio",
+  "name": "mac-os",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,7 +15,7 @@
     "react-markdown": "^10.1.0",
     "react-rnd": "^10.5.2",
     "react-syntax-highlighter": "^16.1.0",
-    "sass": "^1.97.3"
+    "sass": "^1.97.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
