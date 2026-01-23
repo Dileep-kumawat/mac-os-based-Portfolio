@@ -1,47 +1,129 @@
 [
   {
     "id": 1,
-    "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1000",
-    "title": "Scheds - A Course Schedule Generator",
-    "description": "My proudest project yet, a comprehensive course schedule generator application built with ASP.NET Core MVC.",
-    "tags": ["ASP.NET Core", "C#", "Entity Framework", "SQL Server", "Bootstrap", "jQuery"],
-    "repoLink": "https://github.com/microsoft/dotnet",
-    "demoLink": "https://dotnet.microsoft.com/"
+    "image" : "https://plus.unsplash.com/premium_photo-1721829502786-982bcedd20d8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Figma-Style-Design-Editor",
+    "description": "A fully functional visual design tool built with pure HTML, CSS, and Vanilla JavaScript.",
+    "repoLink": "https://github.com/Dileep-kumawat/Figma-Style-Design-Editor",
+    "demoLink": "https://figma-style-design-editor.vercel.app/",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
   },
   {
     "id": 2,
-    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
-    "title": "FinTrack - Personal Finance Dashboard",
-    "description": "A real-time finance tracker that visualizes spending habits using interactive charts and connects to banking APIs.",
-    "tags": ["React", "TypeScript", "Chart.js", "Node.js", "Express", "MongoDB"],
-    "repoLink": "https://github.com/facebook/react",
-    "demoLink": "https://react.dev/"
+    "image" : "https://images.unsplash.com/photo-1621768216002-5ac171876625?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "apple.com-using-html-and-css",
+    "description": "Responsive Apple.com clone using HTML and CSS.",
+    "repoLink": "https://github.com/Dileep-kumawat/apple.com-using-html-and-css",
+    "demoLink": "https://dileep-kumawat.github.io/apple.com-using-html-and-css/",
+    "tags": [
+      "HTML",
+      "CSS"
+    ]
   },
   {
     "id": 3,
-    "image": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&q=80&w=1000",
-    "title": "SecureAuth - Backend Identity Service",
-    "description": "A robust backend authentication microservice featuring JWT implementation, role-based access control, and OAuth2 integration.",
-    "tags": ["Python", "Django", "PostgreSQL", "Docker", "Redis", "JWT"],
-    "repoLink": "https://github.com/django/django",
-    "demoLink": null
+    "image" : "https://images.unsplash.com/photo-1657047698672-cbf2fd464d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "title": "Caffiend-react-app",
+    "description": "React app (details TBD from repo), likely demonstrating component-based architecture and interactivity.",
+    "repoLink": "https://github.com/Dileep-kumawat/Caffiend-react-app",
+    "demoLink": "https://caffiend-by-dileep.netlify.app/",
+    "tags": [
+      "React",
+      "JavaScript"
+    ]
   },
   {
     "id": 4,
-    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1000",
-    "title": "ChatStream - Real-time Messaging App",
-    "description": "A lightweight chat application allowing users to create rooms and message instantly. Optimized for low latency communication.",
-    "tags": ["Vue.js", "Firebase", "Tailwind CSS", "Socket.io"],
-    "repoLink": "https://github.com/vuejs/core",
-    "demoLink": "https://vuejs.org/"
+    "image" : "https://assets.awwwards.com/awards/submissions/2023/06/6481ace96171a370482000.jpg",
+    "title": "sidcup-family-golf-website",
+    "description": "A styled website using CSS — good example of layout and responsive design.",
+    "repoLink": "https://github.com/Dileep-kumawat/sidcup-family-golf-website",
+    "demoLink": "https://dileep-kumawat.github.io/sidcup-family-golf-website/",
+    "tags": [
+      "HTML",
+      "CSS",
+      "GSAP"
+    ]
   },
   {
     "id": 5,
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=1000",
-    "title": "TerminalX - CLI Productivity Tool",
-    "description": "A command-line interface tool built to automate repetitive developer tasks and manage local environments efficiently.",
-    "tags": ["Rust", "Clap", "Tokio", "System API"],
-    "repoLink": "https://github.com/rust-lang/rust",
-    "demoLink": null
+    "image" : "https://cssdesignawards.com/cdasites/2022/202204/20220420061437.jpg",
+    "title": "The-Glimmering-website-using-html-scss-and-js",
+    "description": "A multi-tags stack website — HTML, SCSS, and JavaScript for interactive UI.",
+    "repoLink": "https://github.com/Dileep-kumawat/The-Glimmering-website-using-html-scss-and-js",
+    "demoLink": "https://dileep-kumawat.github.io/The-Glimmering-website-using-html-scss-and-js/",
+    "tags": [
+      "HTML",
+      "SCSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": 6,
+    "image" : "https://i.pinimg.com/1200x/f0/59/f7/f059f75273ddf864bcc95ae7b19b3da8.jpg",
+    "title": "Pokedex-react-app",
+    "description": "React-based Pokedex app showcasing API usage and state management.",
+    "repoLink": "https://github.com/Dileep-kumawat/Pokedex-react-app",
+    "demoLink": "https://pokedexbydileep.netlify.app/",
+    "tags": [
+      "React",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": 7,
+    "image" : "https://github.com/Dileep-kumawat/Playable-Piano-using-html-css-and-js/raw/main/preview.png",
+    "title": "Virtual Piano",
+    "description": "A beautiful, responsive, and fully interactive virtual piano. Users can play notes using mouse clicks or keyboard keys, control volume, and toggle label visibility.",
+    "repoLink": "https://github.com/Dileep-kumawat/Playable-Piano-using-html-css-and-js",
+    "demoLink": "https://dileep-kumawat.github.io/Playable-Piano-using-html-css-and-js/",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JS"
+    ]
+  },
+  {
+    "id": 8,
+    "image" : "https://github.com/Dileep-kumawat/Productivity-Dashboard-using-html-css-and-js/raw/main/preview.png",
+    "title": "Productivity Dashboard",
+    "description": "A lightweight, front-end productivity dashboard built with pure HTML, CSS & vanilla JavaScript - no frameworks, no backend - designed to help users manage time and tasks in one place.",
+    "repoLink": "https://github.com/Dileep-kumawat/Productivity-Dashboard-using-html-css-and-js",
+    "demoLink": "https://productivityboard.netlify.app/",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": 9,
+    "image" : "https://i.pinimg.com/736x/f2/9b/aa/f29baafd30248e7e1c482b94468305cd.jpg",
+    "title": "Sanke space",
+    "description": "A modern, responsive, and customizable Snake Game built using HTML, CSS, and JavaScript. Features difficulty modes, timer, high-score saving, touch controls for mobile, and clean UI.",
+    "repoLink": "https://github.com/Dileep-kumawat/snake-game-using-html-css-and-js",
+    "demoLink": "https://dileep-kumawat.github.io/snake-game-using-html-css-and-js/",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "id": 10,
+    "image" : "https://i.pinimg.com/1200x/d8/23/2f/d8232f49a234934878907386d1c5e867.jpg",
+    "title": "Trello-style task board",
+    "description": "A clean and lightweight Trello-style task board built with HTML, CSS, and Vanilla JavaScript. Drag and drop tasks smoothly between columns with visual placeholders and highlight effects.",
+    "repoLink": "https://github.com/Dileep-kumawat/Trello-Style-Drag-Drop-Board-using-html-css-and-js.git",
+    "demoLink": "https://dileep-kumawat.github.io/Trello-Style-Drag-Drop-Board-using-html-css-and-js/",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
   }
 ]

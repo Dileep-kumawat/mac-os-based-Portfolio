@@ -12,58 +12,43 @@ const Cli = ({ windowName, setWindowsState, topElem, setTopElem }) => {
         skills: {
             description: 'List technical skills',
             usage: 'skills',
-            fn: () => `Frontend: React, Vue.js, Vanilla JS, Sass, HTML/CSS
-Backend: Node.js, Express, Python, Django
-Databases: MongoDB, PostgreSQL, MySQL
-Tools: Git, Docker, Webpack, Vite
-Cloud: AWS, Azure, Heroku`
-        },
-        projects: {
-            description: 'View my projects',
-            usage: 'projects',
-            fn: () => `1. Portfolio Website - React + Vite
-2. E-commerce Platform - MERN Stack
-3. Task Management App - Next.js
-4. Real-time Chat App - Socket.io
-5. Data Dashboard - React + Chart.js`
+            fn: () => `Frontend: React, Vanilla JS, Scss, HTML/CSS
+Backend: Node.js, Express, Python
+Databases: MongoDB, MySQL
+Tools: Git, Docker, Webpack, Vite`
         },
         experience: {
             description: 'Display work experience',
             usage: 'experience',
-            fn: () => `Senior Developer @ Tech Corp (2022 - Present)
-  - Led development of 5+ React applications
+            fn: () => `Web Developer @ Freelancing (2025 - Present)
+  - Led development of 2+ React applications
   - Mentored junior developers
 
-Full Stack Developer @ Web Solutions (2020 - 2022)
+Full Stack Developer (2025 - present)
   - Built scalable APIs with Node.js
   - Designed responsive UIs with React`
         },
         contact: {
             description: 'Get contact information',
             usage: 'contact',
-            fn: () => `Email: ankur@example.com
-Phone: +1 (555) 123-4567
-Location: San Francisco, CA`
+            fn: () => `Email: dileepkumawat525@gmail.com
+Phone: +91 79813 00325
+Location: Tirupati-AP,India`
         },
         github: {
             description: 'Open GitHub profile',
             usage: 'github',
             fn: () => {
-                window.open('https://github.com', '_blank')
+                window.open('https://github.com/Dileep-kumawat', '_blank')
                 return 'Opening GitHub...'
             }
-        },
-        resume: {
-            description: 'Download resume',
-            usage: 'resume',
-            fn: () => 'Resume download started...'
         },
         social: {
             description: 'View social media links',
             usage: 'social',
-            fn: () => `Twitter: @ankurdev
-LinkedIn: /in/ankurprajapati
-Portfolio: ankurprajapati.dev`
+            fn: () => `Twitter: @dilsecode
+LinkedIn: in/dileep-kumawat/
+Instagram: dileep.52`
         },
         echo: {
             description: 'Echo a passed string',
@@ -82,9 +67,10 @@ Hello! 👋 Welcome to my interactive portfolio. You can navigate through my wor
 Type 'help' to see all available commands, or try:
   • about     - Learn about me
   • skills    - View my technical skills
-  • projects  - Check out my work
   • experience - See my career history
   • contact   - Get in touch
+  • github   - To open my github profile
+  • social   - See where I am active
 
 Happy exploring! 🚀
 `
