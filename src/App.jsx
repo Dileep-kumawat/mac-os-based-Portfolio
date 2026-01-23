@@ -9,6 +9,7 @@ import Resume from './components/windows/Resume'
 import Spotify from './components/windows/Spotify'
 import Cli from './components/windows/Cli'
 import ContextMenu from './components/ContextMenu'
+import MobileBlocker from './components/MobileBlocker'
 
 function App() {
   const [topElem, setTopElem] = useState(null);
@@ -22,6 +23,7 @@ function App() {
 
   return (
     <main>
+      <MobileBlocker />
       <ContextMenu setWindowsState={setWindowsState} />
       <Nav setWindowsState={setWindowsState} />
       <Dock setWindowsState={setWindowsState} />
