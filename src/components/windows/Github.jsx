@@ -16,16 +16,15 @@ const GitCard = ({ data = { id: 1, image: "", title: "", description: "", tags: 
         </div>
 
         <div className="urls">
-            <a href={data.repoLink}>Repository</a>
-            {data.demoLink && <a href={data.demoLink}>Demo link</a>}
+            <a href={data.repoLink} target="_blank">Repository</a>
+            {data.demoLink && <a href={data.demoLink} target="_blank">Demo link</a>}
         </div>
     </div>
 }
 
-
-const Github = ({ windowName, setWindowsState }) => {
+const Github = ({ windowName, setWindowsState, topElem, setTopElem }) => {
     return (
-        <MacWindow windowName={windowName} setWindowsState={setWindowsState} >
+        <MacWindow top={topElem === windowName ? true : false} width="50vw" height="70vh" x={200} y={50} windowName={windowName} setWindowsState={setWindowsState} setTopElem={setTopElem} >
             <div className="cards">
                 {githubData.map(project => {
                     return <GitCard data={project} />

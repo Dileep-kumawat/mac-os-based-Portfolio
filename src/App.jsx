@@ -11,6 +11,7 @@ import Cli from './components/windows/Cli'
 import ContextMenu from './components/ContextMenu'
 
 function App() {
+  const [topElem, setTopElem] = useState(null);
   const [windowsState, setWindowsState] = useState({
     github: false,
     note: false,
@@ -24,11 +25,11 @@ function App() {
       <ContextMenu setWindowsState={setWindowsState} />
       <Nav setWindowsState={setWindowsState} />
       <Dock setWindowsState={setWindowsState} />
-      {windowsState.github && <Github windowName="github" setWindowsState={setWindowsState} />}
-      {windowsState.note && <Note windowName="note" setWindowsState={setWindowsState} />}
-      {windowsState.resume && <Resume windowName="resume" setWindowsState={setWindowsState} />}
-      {windowsState.spotify && <Spotify windowName="spotify" setWindowsState={setWindowsState} />}
-      {windowsState.cli && <Cli windowName="cli" setWindowsState={setWindowsState} />}
+      {windowsState.github && <Github topElem={topElem} setTopElem={setTopElem} windowName="github" setWindowsState={setWindowsState} />}
+      {windowsState.note && <Note topElem={topElem} setTopElem={setTopElem} windowName="note" setWindowsState={setWindowsState} />}
+      {windowsState.resume && <Resume topElem={topElem} setTopElem={setTopElem} windowName="resume" setWindowsState={setWindowsState} />}
+      {windowsState.spotify && <Spotify topElem={topElem} setTopElem={setTopElem} windowName="spotify" setWindowsState={setWindowsState} />}
+      {windowsState.cli && <Cli topElem={topElem} setTopElem={setTopElem} windowName="cli" setWindowsState={setWindowsState} />}
     </main>
   )
 }

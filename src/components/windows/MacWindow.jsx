@@ -1,7 +1,7 @@
 import { Rnd } from 'react-rnd'
 import "./window.scss"
 
-const MacWindow = ({ children, width = "40vw", height = "40vh", x = 300, y = 200, windowName, setWindowsState }) => {
+const MacWindow = ({ children, width = "40vw", height = "40vh", x = 300, y = 200, windowName, setWindowsState, top = false, setTopElem }) => {
     return (
         <Rnd
             default={{
@@ -9,6 +9,10 @@ const MacWindow = ({ children, width = "40vw", height = "40vh", x = 300, y = 200
                 height: height,
                 x,
                 y
+            }}
+            style={{ zIndex: top ? 99 : 1 }}
+            onClick={() => {
+                setTopElem(windowName);
             }}
         >
             <div className="window">
