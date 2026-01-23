@@ -19,4 +19,27 @@ nav {
         display: flex;
         gap: 1rem;
     }
+
+    .nav-item {
+        text-transform: capitalize;
+    }
+
+    .external-links a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .terminal {
+        cursor: pointer;
+    }
+
+    .apple-icon,
+    .nav-icon {
+        display: flex;
+        align-items: center;
+    }
 }

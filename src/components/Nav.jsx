@@ -1,7 +1,7 @@
 import "./nav.scss"
 import DateTime from './DateTime'
 
-const Nav = () => {
+const Nav = ({ setWindowsState }) => {
     return (
         <nav>
             <div className="left">
@@ -13,13 +13,18 @@ const Nav = () => {
                     <p>Dileep kumawat</p>
                 </div>
 
-                <div className="nav-item">
-                    <p>File</p>
+                <div className="nav-item external-links">
+                    <a href="https://github.com/Dileep-kumawat" target="_blank"><p>Github</p></a>
                 </div>
-                <div className="nav-item">
-                    <p>Window</p>
+                <div className="nav-item external-links">
+                    <a href="https://drive.google.com/file/d/167o84GoJwFpJOoHxwLiOoCjsbiv95U3u/view" target="_blank"><p>Resume</p></a>
                 </div>
-                <div className="nav-item">
+                <div className="nav-item external-links">
+                    <a href="https://www.linkedin.com/in/dileep-kumawat/" target="_blank"><p>LinkedIn</p></a>
+                </div>
+                <div
+                    onClick={() => { setWindowsState(state => ({ ...state, cli: true })) }}
+                    className="nav-item terminal">
                     <p>Terminal</p>
                 </div>
 

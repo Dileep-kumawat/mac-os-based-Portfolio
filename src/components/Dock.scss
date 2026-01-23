@@ -9,22 +9,29 @@
 
     background-color: rgba(63, 63, 63, 0.395);
     padding-inline: 1rem;
-    padding-block: 0.75rem;
-    border-radius: 0.75rem;
+    padding-block: 0.55rem;
+    border-radius: 0.55rem;
 
     backdrop-filter: blur(5px);
 
     .icon {
-        padding: 0.65rem;
+        padding: 0.35rem;
         border-radius: 0.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
 
         aspect-ratio: 1/1;
-        width: 3.75rem;
+        width: 2.5rem;
+        cursor: pointer;
 
         transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
     }
 
     .github,

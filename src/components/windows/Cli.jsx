@@ -90,12 +90,12 @@ Happy exploring! 🚀
 `
 
     return (
-        <MacWindow windowName={windowName} setWindowsState={setWindowsState} >
+        <MacWindow width='40vw' height='70vh' x={150} y={70} windowName={windowName} setWindowsState={setWindowsState} >
             <div className="cli-window">
                 <Terminal
                     commands={commands}
                     welcomeMessage={welcomeMessage}
-                    promptLabel={'ankurprajapati:~$'}
+                    promptLabel={'dileepkumawat:~$'}
                     promptLabelStyle={{ color: '#00ff00' }}
                 />
             </div>

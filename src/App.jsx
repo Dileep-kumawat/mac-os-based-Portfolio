@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import "./app.scss"
+import 'remixicon/fonts/remixicon.css'
 import Dock from './components/Dock'
 import Nav from './components/Nav'
 import Github from './components/windows/Github'
@@ -7,9 +8,7 @@ import Note from './components/windows/Note'
 import Resume from './components/windows/Resume'
 import Spotify from './components/windows/Spotify'
 import Cli from './components/windows/Cli'
-
-
-
+import ContextMenu from './components/ContextMenu'
 
 function App() {
   const [windowsState, setWindowsState] = useState({
@@ -22,7 +21,8 @@ function App() {
 
   return (
     <main>
-      <Nav />
+      <ContextMenu setWindowsState={setWindowsState} />
+      <Nav setWindowsState={setWindowsState} />
       <Dock setWindowsState={setWindowsState} />
       {windowsState.github && <Github windowName="github" setWindowsState={setWindowsState} />}
       {windowsState.note && <Note windowName="note" setWindowsState={setWindowsState} />}
