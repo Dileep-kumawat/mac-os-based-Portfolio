@@ -16,7 +16,7 @@ const Note = ({ windowName, setWindowsState, topElem, setTopElem }) => {
     }, [])
 
     return (
-        <MacWindow top={topElem === windowName ? true : false} windowName={windowName} setWindowsState={setWindowsState} setTopElem={setTopElem} >
+        <MacWindow width='50vw' height='60vh' x={200} y={100} right={true} top={topElem === windowName ? true : false} windowName={windowName} setWindowsState={setWindowsState} setTopElem={setTopElem} >
             <div className="note-window">
                 { markdown ? <SyntaxHighlighter language='typescript' style={atelierDuneDark} >{markdown}</SyntaxHighlighter> : <p>Loading...</p> }
             </div>

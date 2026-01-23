@@ -10,7 +10,7 @@ const MacWindow = ({ children, width = "40vw", height = "40vh", x = 300, y = 200
                 x,
                 y
             }}
-            style={{ zIndex: top ? 99 : 1 }}
+            style={{ zIndex: top ? 99 : 1}}
             onClick={() => {
                 setTopElem(windowName);
             }}
